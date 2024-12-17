@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+
+<body>
+<h1>JavaScript Functions</h1>
+
+<p>Call a function:</p>
+<button id="call" onclick="ankit(4,3)">call</button>
+
+<p id="temo"></p>
+
+<script>
+function ankit (p1, p2) {
+  return p1 * p2;
+}
+
+let result = ankit (4, 3);
+document.getElementById("temo").innerHTML = result;
+</script>
+
+</body>
+</html>
